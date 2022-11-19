@@ -67,7 +67,7 @@ Console.WriteLine($"Distanse AB is {dist}");
 
 //3 -> 1, 8, 27
 //5 -> 1, 8, 27, 64, 125
-
+/*
 void Qube(int num)
 {
     int current = 1;
@@ -87,4 +87,4 @@ Console.WriteLine("Input number: ");
 int qnum = Convert.ToInt32(Console.ReadLine());
 
 Qube(qnum);
-
+*/
