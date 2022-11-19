@@ -68,8 +68,7 @@ Console.WriteLine($"Distanse AB is {dist}");
 //3 -> 1, 8, 27
 //5 -> 1, 8, 27, 64, 125
 
-/*
-void Qurd(int num)
+void Qube(int num)
 {
     int current = 1;
     if (num >= 1)
@@ -77,16 +76,15 @@ void Qurd(int num)
         while (current <= num)
         {
             int res = current * current * current;
-            Console.Write($"{res} ");
+            Console.Write($"| {res} ");
             current ++;
         }
-        Console.WriteLine("\b.");
+        Console.WriteLine("|");
     }
     else Console.WriteLine("imposible number!");
 }
-
 Console.WriteLine("Input number: ");
-int number = Convert.ToInt32(Console.ReadLine());
+int qnum = Convert.ToInt32(Console.ReadLine());
 
-Qurd(number);
-*/
+Qube(qnum);
+
