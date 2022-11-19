@@ -8,7 +8,6 @@
 
 //23432 -> да
 
-//Задача 21
 /*
 void Pol5Dig(int num)
 {
@@ -39,7 +38,7 @@ Pol5Dig(number);
 /*
 double LongLine(int x1, int y1,int z1, int x2, int y2, int z2)
 {
-    double lenghtAB = Math.Round(Math.Sqrt((x2-x1)*(x2-x1) + (y2-y1)*(y2-y1) + (z2-z1)*(z2-z1)), 3);   //функция корень квадратный - Math.Sqrt(...)
+    double lenghtAB = Math.Round(Math.Sqrt((x2-x1)*(x2-x1) + (y2-y1)*(y2-y1) + (z2-z1)*(z2-z1)), 3);  
     return lenghtAB;
 }
 
@@ -69,4 +68,25 @@ Console.WriteLine($"Distanse AB is {dist}");
 //3 -> 1, 8, 27
 //5 -> 1, 8, 27, 64, 125
 
+/*
+void Qurd(int num)
+{
+    int current = 1;
+    if (num >= 1)
+    {
+        while (current <= num)
+        {
+            int res = current * current * current;
+            Console.Write($"{res} ");
+            current ++;
+        }
+        Console.WriteLine("\b.");
+    }
+    else Console.WriteLine("imposible number!");
+}
 
+Console.WriteLine("Input number: ");
+int number = Convert.ToInt32(Console.ReadLine());
+
+Qurd(number);
+*/
